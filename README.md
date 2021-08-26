@@ -25,5 +25,5 @@ The convergence of K-Means is therefore, highly dependent on the number of clust
 3. _K-Means is limited to linear cluster boundaries_: K-Means algorithm works really well with data that has linear boundaries between clusters. However, for more complicated boundaries K-Means would not work. The workaround would be to project such data into a higher dimensional space where the linear separation is possible. This will help the K-Means to discover those non-linear boundaries. This method of clustering is the _Spectral Clustering_ which uses graph of nearest neighbors to compute the higher dimensional data and assigns label using the K-Means algorithm. 
 4. _K-Means can be slower for large number of samples_: The workaround is this shortcoming is to use subset of the data instead of the whole dataset to update the cluster centers at each step. This method is the _Minibatch K-Means_. 
 
-### Example Implementation of K-Means:[K_Means_Clustering.ipynb](https://github.com/janhavi-giri/Clustering/blob/main/K_Means_Clustering.ipynb)
+### Example Implementation of K-Means: [K_Means_Clustering.ipynb](https://github.com/janhavi-giri/Clustering/blob/main/K_Means_Clustering.ipynb)
 
